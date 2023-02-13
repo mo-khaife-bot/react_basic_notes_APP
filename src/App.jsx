@@ -27,10 +27,6 @@ function App() {
   };
   return (
     <div className="App">
-      <h3>
-        Basic Note App to practice adding and deleting CRUD features with local
-        storage
-      </h3>
       <AddUser onAddUser={addUserHandler} />
       {usersList.length >= 1 && (
         <UsersList users={usersList} onDelete={deleteUserHandler} />

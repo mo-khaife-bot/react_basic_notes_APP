@@ -53,6 +53,10 @@ const AddUser = (props) => {
       )}
 
       <Card className={classes.input}>
+        <h3>
+          Basic Note App to practice adding and deleting CRUD features with
+          local storage
+        </h3>
         <form onSubmit={addUserHandler}>
           <label htmlFor="username">Username</label>
           <input
